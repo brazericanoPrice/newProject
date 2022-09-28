@@ -1,0 +1,140 @@
+html {
+    background-color: black;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    justify-content: flex-end;
+    padding: 0 10px;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    z-index: 1;
+}
+
+nav img {
+    height: 50px;
+    margin-right: auto;
+}
+
+nav li {
+    display: inline;
+    text-decoration: underline;
+    padding-left: 10px;
+}
+
+/*
+nav {
+    height: 70px;
+    width: 100%;
+    
+    position: fixed;
+    box-sizing: border-box;
+    padding: 0 10px;
+    background-color: black;
+    z-index: 1;
+}
+
+
+
+nav ul {
+    float: right;
+}
+*/
+
+
+.subnav {
+    position: relative;
+    top: 70px;
+}
+
+.jumbotron {
+    position: relative;
+    margin: auto;
+    height: 700px;
+    width: 1200px;
+    background-image: url("./images/background.jpeg");
+    display: flex;
+}
+
+.mission {
+    background-color: black;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.month {
+    position: relative;
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.teas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.specTea {
+    margin: 15px;
+}
+
+.teas img {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.locations {
+    background-image: url("./images/locations-background.webp");
+    background-size: cover;
+    position: relative;
+    width: 1200px;
+    height: 570px;
+    text-align: center;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 60px;
+}
+
+.locations h2 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.locations h3 {
+    margin: 15px 0;
+}
+
+.specLoc {
+    background-color: black;
+    width: 300px;
+    margin: 0 20px;
+    padding-bottom: 10px;
+    opacity: 1;
+    display: inline-block;
+}
+
+.specLoc p {
+    padding: 20px 0;
+    margin: 0;
+}
+
+footer {
+    margin-left: 20px;
+    position: relative;
+}
